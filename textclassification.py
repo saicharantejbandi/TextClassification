@@ -9,7 +9,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn import linear_model
 from xgboost import XGBClassifier
 
-movie_data = load_files(r"C:\Master Docs\ASU\Sem 2\Emily\Moderation\txt_sentoken")
+movie_data = load_files(r"txt_sentoken")
 X, y = movie_data.data, movie_data.target
 
 
